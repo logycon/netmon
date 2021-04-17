@@ -1,0 +1,3172 @@
+{
+  "timestamp": "2021-04-17T08:11:35.873601-04:00",
+  "layers": [
+    "ethernet",
+    "ipv6",
+    "udp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "80:2a:a8:02:c9:e4",
+    "to": "33:33:00:00:77:77",
+    "payloadSize": 90
+  },
+  "udp": {
+    "srcPort": 18181,
+    "dstPort": 18181
+  },
+  "payload": "\u0001�\u007fVq\u001e<\u000b��*�\u0004���u��O\u0001^Y\u0012�*�\u0004���\u0019\u0000\u0000��\t\u0006\u0003\u0002�\u0000"
+}
+{
+  "timestamp": "2021-04-17T08:11:36.282647-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "udp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "88:66:5a:1e:49:24",
+    "to": "01:00:5e:7f:ff:fa",
+    "payloadSize": 203
+  },
+  "udp": {
+    "srcPort": 62943,
+    "dstPort": 1900
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.194",
+    "toIP": "239.255.255.250",
+    "id": 65177,
+    "protocol": "UDP",
+    "ttl": 1
+  },
+  "payload": "M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: \"ssdp:discover\"\r\nMX: 1\r\nST: urn:dial-multiscreen-org:service:dial:1\r\nUSER-AGENT: Google Chrome/89.0.4389.114 Mac OS X\r\n\r\n"
+}
+{
+  "timestamp": "2021-04-17T08:11:36.382294-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "68:1c:a2:13:12:db",
+    "to": "20:c0:47:c9:6f:a3",
+    "payloadSize": 94
+  },
+  "tcp": {
+    "fromPort": 9905,
+    "toPort": 443,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "true",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.82",
+    "toIP": "3.211.86.134",
+    "id": 18661,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  },
+  "payload": "\u0017\u0003\u0003\u00001l�dPҮd�������NQb=N�Z\r�'7u��Y8\u000b9��a7��/\u001erJ\u0007I\u001cj�jn"
+}
+{
+  "timestamp": "2021-04-17T08:11:36.3874-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp"
+  ],
+  "ethernet": {
+    "from": "20:c0:47:c9:6f:a3",
+    "to": "68:1c:a2:13:12:db",
+    "payloadSize": 78
+  },
+  "tcp": {
+    "fromPort": 443,
+    "toPort": 9905,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "false",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "3.211.86.134",
+    "toIP": "192.168.1.82",
+    "id": 60418,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 49
+  }
+}
+{
+  "timestamp": "2021-04-17T08:11:36.388245-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "20:c0:47:c9:6f:a3",
+    "to": "68:1c:a2:13:12:db",
+    "payloadSize": 96
+  },
+  "tcp": {
+    "fromPort": 443,
+    "toPort": 9905,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "true",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "3.211.86.134",
+    "toIP": "192.168.1.82",
+    "id": 60419,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 49
+  },
+  "payload": "\u0017\u0003\u0003\u00003:�;-,���M\u001b���a\u001eZ��^�u\u000f��*�\u0001\r�n�&_�CӇ�<8��Ui\u0004��5��Q"
+}
+{
+  "timestamp": "2021-04-17T08:11:36.428975-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp"
+  ],
+  "ethernet": {
+    "from": "68:1c:a2:13:12:db",
+    "to": "20:c0:47:c9:6f:a3",
+    "payloadSize": 40
+  },
+  "tcp": {
+    "fromPort": 9905,
+    "toPort": 443,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "false",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.82",
+    "toIP": "3.211.86.134",
+    "id": 18662,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  }
+}
+{
+  "timestamp": "2021-04-17T08:11:36.429163-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "68:1c:a2:13:12:db",
+    "to": "fc:01:7c:4f:cd:27",
+    "payloadSize": 150
+  },
+  "tcp": {
+    "fromPort": 10857,
+    "toPort": 8009,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "true",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.82",
+    "toIP": "192.168.1.52",
+    "id": 53738,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  },
+  "payload": "\u0017\u0003\u0003\u0000i�\u001eJ\u0013�.�7��6X�.�lhJ�z�uByk}�A��k�\u001c\f\u0013>�|TJ�-\u001aW\t��sx,\u0003��U#�\n���3�\nQgȉj��4���7\n�,�@�\u000e<ʯ�&�`[w�U\bج+n������l"
+}
+{
+  "timestamp": "2021-04-17T08:11:36.4311-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "fc:01:7c:4f:cd:27",
+    "to": "68:1c:a2:13:12:db",
+    "payloadSize": 150
+  },
+  "tcp": {
+    "fromPort": 8009,
+    "toPort": 10857,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "true",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.52",
+    "toIP": "192.168.1.82",
+    "id": 58161,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 64
+  },
+  "payload": "\u0017\u0003\u0003\u0000i.��mr�!N;_\u001b�1[\u000f!�~�W�]v7\u0019z�)Y�\u0010.��:�_d�[\u000e�Zb���)N\u0013�\u0013V�1�(\u0000O��5���\u0012\u001e�>\u0005x\u0000�cʅ�)�PJ��1\u0017\u001ew�y\u00153f�'��՛�\u0010�E;��"
+}
+{
+  "timestamp": "2021-04-17T08:11:36.475971-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp"
+  ],
+  "ethernet": {
+    "from": "68:1c:a2:13:12:db",
+    "to": "fc:01:7c:4f:cd:27",
+    "payloadSize": 40
+  },
+  "tcp": {
+    "fromPort": 10857,
+    "toPort": 8009,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "false",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.82",
+    "toIP": "192.168.1.52",
+    "id": 53739,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  }
+}
+{
+  "timestamp": "2021-04-17T08:11:36.507981-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "68:1c:a2:13:12:db",
+    "to": "20:c0:47:c9:6f:a3",
+    "payloadSize": 41
+  },
+  "tcp": {
+    "fromPort": 12292,
+    "toPort": 443,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "false",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.82",
+    "toIP": "8.8.8.8",
+    "id": 16502,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  },
+  "payload": "\u0000"
+}
+{
+  "timestamp": "2021-04-17T08:11:36.512487-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp"
+  ],
+  "ethernet": {
+    "from": "20:c0:47:c9:6f:a3",
+    "to": "68:1c:a2:13:12:db",
+    "payloadSize": 78
+  },
+  "tcp": {
+    "fromPort": 443,
+    "toPort": 12292,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "false",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "8.8.8.8",
+    "toIP": "192.168.1.82",
+    "id": 13578,
+    "protocol": "TCP",
+    "ttl": 59
+  }
+}
+{
+  "timestamp": "2021-04-17T08:11:36.513845-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "udp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "3c:df:a9:61:44:2e",
+    "to": "01:00:5e:7f:ff:fa",
+    "payloadSize": 165
+  },
+  "udp": {
+    "srcPort": 33664,
+    "dstPort": 1900
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.102",
+    "toIP": "239.255.255.250",
+    "protocol": "UDP",
+    "flags": "DF",
+    "ttl": 1
+  },
+  "payload": "M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: \"ssdp:discover\"\r\nMX: 1\r\nST: urn:schemas-upnp-org:device:InternetGatewayDevice:1\r\n\r\n"
+}
+{
+  "timestamp": "2021-04-17T08:11:36.517002-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "udp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "2c:58:4f:ab:8d:f9",
+    "to": "01:00:5e:7f:ff:fa",
+    "payloadSize": 165
+  },
+  "udp": {
+    "srcPort": 33908,
+    "dstPort": 1900
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.105",
+    "toIP": "239.255.255.250",
+    "protocol": "UDP",
+    "flags": "DF",
+    "ttl": 1
+  },
+  "payload": "M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: \"ssdp:discover\"\r\nMX: 1\r\nST: urn:schemas-upnp-org:device:InternetGatewayDevice:1\r\n\r\n"
+}
+{
+  "timestamp": "2021-04-17T08:11:36.580222-04:00",
+  "layers": [
+    "ethernet",
+    "arp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "d0:03:df:5c:c8:55",
+    "to": "ff:ff:ff:ff:ff:ff",
+    "payloadSize": 46
+  },
+  "arp": {
+    "operation": "ArpRequest",
+    "sender": {
+      "mac": "d0:03:df:5c:c8:55",
+      "ip": "192.168.1.191"
+    },
+    "target": {
+      "mac": "00:00:00:00:00:00",
+      "ip": "192.168.1.1"
+    }
+  },
+  "payload": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+}
+{
+  "timestamp": "2021-04-17T08:11:36.67034-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp"
+  ],
+  "ethernet": {
+    "from": "20:c0:47:c9:6f:a3",
+    "to": "68:1c:a2:13:12:db",
+    "payloadSize": 78
+  },
+  "tcp": {
+    "fromPort": 80,
+    "toPort": 1217,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "false",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "64.31.23.26",
+    "toIP": "192.168.1.82",
+    "id": 48001,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 53
+  }
+}
+{
+  "timestamp": "2021-04-17T08:11:36.670375-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp"
+  ],
+  "ethernet": {
+    "from": "68:1c:a2:13:12:db",
+    "to": "20:c0:47:c9:6f:a3",
+    "payloadSize": 40
+  },
+  "tcp": {
+    "fromPort": 1217,
+    "toPort": 80,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "false",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.82",
+    "toIP": "64.31.23.26",
+    "id": 56528,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  }
+}
+{
+  "timestamp": "2021-04-17T08:11:36.72884-04:00",
+  "layers": [
+    "ethernet",
+    "arp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "00:17:88:75:2c:b5",
+    "to": "68:1c:a2:13:12:db",
+    "payloadSize": 46
+  },
+  "arp": {
+    "operation": "ArpRequest",
+    "sender": {
+      "mac": "00:17:88:75:2c:b5",
+      "ip": "192.168.1.51"
+    },
+    "target": {
+      "mac": "00:00:00:00:00:00",
+      "ip": "192.168.1.82"
+    }
+  },
+  "payload": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+}
+{
+  "timestamp": "2021-04-17T08:11:36.728858-04:00",
+  "layers": [
+    "ethernet",
+    "arp"
+  ],
+  "ethernet": {
+    "from": "68:1c:a2:13:12:db",
+    "to": "00:17:88:75:2c:b5",
+    "payloadSize": 28
+  },
+  "arp": {
+    "operation": "ArpReply",
+    "sender": {
+      "mac": "68:1c:a2:13:12:db",
+      "ip": "192.168.1.82"
+    },
+    "target": {
+      "mac": "00:17:88:75:2c:b5",
+      "ip": "192.168.1.51"
+    }
+  }
+}
+{
+  "timestamp": "2021-04-17T08:11:36.736508-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "bc:5f:f4:df:05:d7",
+    "to": "68:1c:a2:13:12:db",
+    "payloadSize": 81
+  },
+  "tcp": {
+    "fromPort": 56440,
+    "toPort": 7070,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "true",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.64",
+    "toIP": "192.168.1.82",
+    "id": 27802,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  },
+  "payload": "\u0017\u0003\u0003\u0000$ʢQI�i6D\u001a�kn\u0019��i��.�\u0013^�\u001d�R'>�y:\u0004��&|"
+}
+{
+  "timestamp": "2021-04-17T08:11:36.778056-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "bc:5f:f4:df:05:d7",
+    "to": "68:1c:a2:13:12:db",
+    "payloadSize": 81
+  },
+  "tcp": {
+    "fromPort": 56440,
+    "toPort": 7070,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "true",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.64",
+    "toIP": "192.168.1.82",
+    "id": 27803,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  },
+  "payload": "\u0017\u0003\u0003\u0000$ʢQI�i6EFs.&x��L��\u0013�X�`f��X�\u007fu\u0019[Y���"
+}
+{
+  "timestamp": "2021-04-17T08:11:36.778101-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp"
+  ],
+  "ethernet": {
+    "from": "68:1c:a2:13:12:db",
+    "to": "bc:5f:f4:df:05:d7",
+    "payloadSize": 40
+  },
+  "tcp": {
+    "fromPort": 7070,
+    "toPort": 56440,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "false",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.82",
+    "toIP": "192.168.1.64",
+    "id": 56054,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  }
+}
+{
+  "timestamp": "2021-04-17T08:11:36.989561-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp"
+  ],
+  "ethernet": {
+    "from": "20:c0:47:c9:6f:a3",
+    "to": "68:1c:a2:13:12:db",
+    "payloadSize": 78
+  },
+  "tcp": {
+    "fromPort": 80,
+    "toPort": 1215,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "false",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "89.187.179.132",
+    "toIP": "192.168.1.82",
+    "id": 32841,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 55
+  }
+}
+{
+  "timestamp": "2021-04-17T08:11:36.989616-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp"
+  ],
+  "ethernet": {
+    "from": "68:1c:a2:13:12:db",
+    "to": "20:c0:47:c9:6f:a3",
+    "payloadSize": 40
+  },
+  "tcp": {
+    "fromPort": 1215,
+    "toPort": 80,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "false",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.82",
+    "toIP": "89.187.179.132",
+    "id": 460,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  }
+}
+{
+  "timestamp": "2021-04-17T08:11:37.124366-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "udp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "18:c0:4d:38:a3:5a",
+    "to": "01:00:5e:7f:ff:fa",
+    "payloadSize": 202
+  },
+  "udp": {
+    "srcPort": 60115,
+    "dstPort": 1900
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.93",
+    "toIP": "239.255.255.250",
+    "id": 49449,
+    "protocol": "UDP",
+    "ttl": 1
+  },
+  "payload": "M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: \"ssdp:discover\"\r\nMX: 1\r\nST: urn:dial-multiscreen-org:service:dial:1\r\nUSER-AGENT: Google Chrome/89.0.4389.128 Windows\r\n\r\n"
+}
+{
+  "timestamp": "2021-04-17T08:11:37.153498-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "udp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "d0:03:df:5c:c8:55",
+    "to": "01:00:5e:7f:ff:fa",
+    "payloadSize": 63
+  },
+  "udp": {
+    "srcPort": 54022,
+    "dstPort": 15600
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.191",
+    "toIP": "239.255.255.250",
+    "id": 10783,
+    "protocol": "UDP",
+    "flags": "DF",
+    "ttl": 64
+  },
+  "payload": "SEARCH BSDP/0.1\nDEVICE=5\nSERVICE=1\n"
+}
+{
+  "timestamp": "2021-04-17T08:11:37.283121-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "udp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "88:66:5a:1e:49:24",
+    "to": "01:00:5e:7f:ff:fa",
+    "payloadSize": 203
+  },
+  "udp": {
+    "srcPort": 62943,
+    "dstPort": 1900
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.194",
+    "toIP": "239.255.255.250",
+    "id": 39644,
+    "protocol": "UDP",
+    "ttl": 1
+  },
+  "payload": "M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: \"ssdp:discover\"\r\nMX: 1\r\nST: urn:dial-multiscreen-org:service:dial:1\r\nUSER-AGENT: Google Chrome/89.0.4389.114 Mac OS X\r\n\r\n"
+}
+{
+  "timestamp": "2021-04-17T08:11:37.316113-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "68:1c:a2:13:12:db",
+    "to": "20:c0:47:c9:6f:a3",
+    "payloadSize": 94
+  },
+  "tcp": {
+    "fromPort": 9898,
+    "toPort": 443,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "true",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.82",
+    "toIP": "54.164.13.198",
+    "id": 25027,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  },
+  "payload": "\u0017\u0003\u0003\u00001���g/\u0006�c}*���썆����ؑ�`m/�f\u000b\u0014,0\r�\u0006�R�S��˯�t\u0000���"
+}
+{
+  "timestamp": "2021-04-17T08:11:37.320718-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp"
+  ],
+  "ethernet": {
+    "from": "20:c0:47:c9:6f:a3",
+    "to": "68:1c:a2:13:12:db",
+    "payloadSize": 78
+  },
+  "tcp": {
+    "fromPort": 443,
+    "toPort": 9898,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "false",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "54.164.13.198",
+    "toIP": "192.168.1.82",
+    "id": 5883,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 49
+  }
+}
+{
+  "timestamp": "2021-04-17T08:11:37.321188-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "20:c0:47:c9:6f:a3",
+    "to": "68:1c:a2:13:12:db",
+    "payloadSize": 96
+  },
+  "tcp": {
+    "fromPort": 443,
+    "toPort": 9898,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "true",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "54.164.13.198",
+    "toIP": "192.168.1.82",
+    "id": 5884,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 49
+  },
+  "payload": "\u0017\u0003\u0003\u00003��j���7�B�m�U8\u0003�\u001a�\r\u001dY����*0��ї���*�N#̴-T+�4�,����"
+}
+{
+  "timestamp": "2021-04-17T08:11:37.363688-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp"
+  ],
+  "ethernet": {
+    "from": "68:1c:a2:13:12:db",
+    "to": "20:c0:47:c9:6f:a3",
+    "payloadSize": 40
+  },
+  "tcp": {
+    "fromPort": 9898,
+    "toPort": 443,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "false",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.82",
+    "toIP": "54.164.13.198",
+    "id": 25028,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  }
+}
+{
+  "timestamp": "2021-04-17T08:11:37.945309-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "20:c0:47:c9:6f:a3",
+    "to": "68:1c:a2:13:12:db",
+    "payloadSize": 83
+  },
+  "tcp": {
+    "fromPort": 443,
+    "toPort": 12090,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "true",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "52.96.88.50",
+    "toIP": "192.168.1.82",
+    "id": 56690,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 242
+  },
+  "payload": "\u0017\u0003\u0003\u0000&\u0000\u0000\u0000\u0000\u0000\u0000\u0000<S�J1\u0007�$Ea��PV7+p�\r̾�*y!��(E��"
+}
+{
+  "timestamp": "2021-04-17T08:11:37.991985-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp"
+  ],
+  "ethernet": {
+    "from": "68:1c:a2:13:12:db",
+    "to": "20:c0:47:c9:6f:a3",
+    "payloadSize": 40
+  },
+  "tcp": {
+    "fromPort": 12090,
+    "toPort": 443,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "false",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.82",
+    "toIP": "52.96.88.50",
+    "id": 59080,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  }
+}
+{
+  "timestamp": "2021-04-17T08:11:38.099622-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "bc:5f:f4:df:05:d7",
+    "to": "68:1c:a2:13:12:db",
+    "payloadSize": 81
+  },
+  "tcp": {
+    "fromPort": 56440,
+    "toPort": 7070,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "true",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.64",
+    "toIP": "192.168.1.82",
+    "id": 27804,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  },
+  "payload": "\u0017\u0003\u0003\u0000$ʢQI�i6F��\u001f銨1�֥?�x����l���g��\"���"
+}
+{
+  "timestamp": "2021-04-17T08:11:38.127749-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "udp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "18:c0:4d:38:a3:5a",
+    "to": "01:00:5e:7f:ff:fa",
+    "payloadSize": 202
+  },
+  "udp": {
+    "srcPort": 60115,
+    "dstPort": 1900
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.93",
+    "toIP": "239.255.255.250",
+    "id": 49450,
+    "protocol": "UDP",
+    "ttl": 1
+  },
+  "payload": "M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: \"ssdp:discover\"\r\nMX: 1\r\nST: urn:dial-multiscreen-org:service:dial:1\r\nUSER-AGENT: Google Chrome/89.0.4389.128 Windows\r\n\r\n"
+}
+{
+  "timestamp": "2021-04-17T08:11:38.140661-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "bc:5f:f4:df:05:d7",
+    "to": "68:1c:a2:13:12:db",
+    "payloadSize": 81
+  },
+  "tcp": {
+    "fromPort": 56440,
+    "toPort": 7070,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "true",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.64",
+    "toIP": "192.168.1.82",
+    "id": 27805,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  },
+  "payload": "\u0017\u0003\u0003\u0000$ʢQI�i6G�sDm\u0005�\u0010��\u0012�[X]��\u001eq\tu�T'���q\f"
+}
+{
+  "timestamp": "2021-04-17T08:11:38.14072-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp"
+  ],
+  "ethernet": {
+    "from": "68:1c:a2:13:12:db",
+    "to": "bc:5f:f4:df:05:d7",
+    "payloadSize": 40
+  },
+  "tcp": {
+    "fromPort": 7070,
+    "toPort": 56440,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "false",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.82",
+    "toIP": "192.168.1.64",
+    "id": 56055,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  }
+}
+{
+  "timestamp": "2021-04-17T08:11:38.281999-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "udp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "88:66:5a:1e:49:24",
+    "to": "01:00:5e:7f:ff:fa",
+    "payloadSize": 203
+  },
+  "udp": {
+    "srcPort": 62943,
+    "dstPort": 1900
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.194",
+    "toIP": "239.255.255.250",
+    "id": 55279,
+    "protocol": "UDP",
+    "ttl": 1
+  },
+  "payload": "M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: \"ssdp:discover\"\r\nMX: 1\r\nST: urn:dial-multiscreen-org:service:dial:1\r\nUSER-AGENT: Google Chrome/89.0.4389.114 Mac OS X\r\n\r\n"
+}
+{
+  "timestamp": "2021-04-17T08:11:38.356286-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "68:1c:a2:13:12:db",
+    "to": "20:c0:47:c9:6f:a3",
+    "payloadSize": 94
+  },
+  "tcp": {
+    "fromPort": 9895,
+    "toPort": 443,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "true",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.82",
+    "toIP": "54.164.13.198",
+    "id": 25029,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  },
+  "payload": "\u0017\u0003\u0003\u00001�ps�\u0007l\u0014�\u0006C\u0004`ҫ2Hk�\u001ad\u001c\u00020\u001e��1\u0004\u0004N��/�%�\u0015m^\u0000t�\u0013���>�\u0013"
+}
+{
+  "timestamp": "2021-04-17T08:11:38.360772-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp"
+  ],
+  "ethernet": {
+    "from": "20:c0:47:c9:6f:a3",
+    "to": "68:1c:a2:13:12:db",
+    "payloadSize": 78
+  },
+  "tcp": {
+    "fromPort": 443,
+    "toPort": 9895,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "false",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "54.164.13.198",
+    "toIP": "192.168.1.82",
+    "id": 4848,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 49
+  }
+}
+{
+  "timestamp": "2021-04-17T08:11:38.36165-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "20:c0:47:c9:6f:a3",
+    "to": "68:1c:a2:13:12:db",
+    "payloadSize": 96
+  },
+  "tcp": {
+    "fromPort": 443,
+    "toPort": 9895,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "true",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "54.164.13.198",
+    "toIP": "192.168.1.82",
+    "id": 4849,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 49
+  },
+  "payload": "\u0017\u0003\u0003\u00003\u0011�#\u0006�:��B�S������*1��d�%�^oo�ݫ�\u0000'���o\u0004�\u0006\u0011�\u0010I\t�?�mC"
+}
+{
+  "timestamp": "2021-04-17T08:11:38.403183-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp"
+  ],
+  "ethernet": {
+    "from": "68:1c:a2:13:12:db",
+    "to": "20:c0:47:c9:6f:a3",
+    "payloadSize": 40
+  },
+  "tcp": {
+    "fromPort": 9895,
+    "toPort": 443,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "false",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.82",
+    "toIP": "54.164.13.198",
+    "id": 25030,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  }
+}
+{
+  "timestamp": "2021-04-17T08:11:38.516149-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "udp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "3c:df:a9:61:44:2e",
+    "to": "01:00:5e:7f:ff:fa",
+    "payloadSize": 165
+  },
+  "udp": {
+    "srcPort": 43510,
+    "dstPort": 1900
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.102",
+    "toIP": "239.255.255.250",
+    "protocol": "UDP",
+    "flags": "DF",
+    "ttl": 1
+  },
+  "payload": "M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: \"ssdp:discover\"\r\nMX: 1\r\nST: urn:schemas-upnp-org:device:InternetGatewayDevice:1\r\n\r\n"
+}
+{
+  "timestamp": "2021-04-17T08:11:38.523122-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "udp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "2c:58:4f:ab:8d:f9",
+    "to": "01:00:5e:7f:ff:fa",
+    "payloadSize": 165
+  },
+  "udp": {
+    "srcPort": 40150,
+    "dstPort": 1900
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.105",
+    "toIP": "239.255.255.250",
+    "protocol": "UDP",
+    "flags": "DF",
+    "ttl": 1
+  },
+  "payload": "M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: \"ssdp:discover\"\r\nMX: 1\r\nST: urn:schemas-upnp-org:device:InternetGatewayDevice:1\r\n\r\n"
+}
+{
+  "timestamp": "2021-04-17T08:11:38.592226-04:00",
+  "layers": [
+    "ethernet",
+    "arp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "d0:03:df:5c:c8:55",
+    "to": "ff:ff:ff:ff:ff:ff",
+    "payloadSize": 46
+  },
+  "arp": {
+    "operation": "ArpRequest",
+    "sender": {
+      "mac": "d0:03:df:5c:c8:55",
+      "ip": "192.168.1.191"
+    },
+    "target": {
+      "mac": "00:00:00:00:00:00",
+      "ip": "192.168.1.1"
+    }
+  },
+  "payload": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+}
+{
+  "timestamp": "2021-04-17T08:11:39.138218-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "udp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "18:c0:4d:38:a3:5a",
+    "to": "01:00:5e:7f:ff:fa",
+    "payloadSize": 202
+  },
+  "udp": {
+    "srcPort": 60115,
+    "dstPort": 1900
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.93",
+    "toIP": "239.255.255.250",
+    "id": 49451,
+    "protocol": "UDP",
+    "ttl": 1
+  },
+  "payload": "M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: \"ssdp:discover\"\r\nMX: 1\r\nST: urn:dial-multiscreen-org:service:dial:1\r\nUSER-AGENT: Google Chrome/89.0.4389.128 Windows\r\n\r\n"
+}
+{
+  "timestamp": "2021-04-17T08:11:39.403804-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "20:c0:47:c9:6f:a3",
+    "to": "68:1c:a2:13:12:db",
+    "payloadSize": 79
+  },
+  "tcp": {
+    "fromPort": 443,
+    "toPort": 11858,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "true",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "52.96.183.34",
+    "toIP": "192.168.1.82",
+    "id": 3570,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 242
+  },
+  "payload": "\u0017\u0003\u0003\u0000\u001e\u0000\u0000\u0000\u0000\u0000\u0000\u0000��俚i�\f\u0005��'�\u0010�w�\u0019�Fk�g"
+}
+{
+  "timestamp": "2021-04-17T08:11:39.404051-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "20:c0:47:c9:6f:a3",
+    "to": "68:1c:a2:13:12:db",
+    "payloadSize": 1123
+  },
+  "tcp": {
+    "fromPort": 443,
+    "toPort": 11858,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "true",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "52.96.183.34",
+    "toIP": "192.168.1.82",
+    "id": 3571,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 242
+  },
+  "payload": "\u0017\u0003\u0003\u00046\u0000\u0000\u0000\u0000\u0000\u0000\u0000�~T�IYrUT�w��;�8���.*�\u0002P>��MGgv��\u007f\u001683���lZty;��L\u001a\u0012�h\u0015-�\u0003�}��Ch�}z\u0000ŗY�H\ng��;@5t-/����\u001d�ɼ\u001c�v��׾�&\u0006�3\rŠ�\u000f��9A�}'<��]�\u00039�D�\u0019��uj��\u000ejuj'��\u0000j��!\u001a\u007fN\"#Z��]�P$�)�F�,\u000f�AP��-r-�ttZ�7�FɌ��\u000e�/\b���7\u001f�\u001c��ˁp�\u0017��.U��_5��h�\u0011��S�V�3����m�\u001b��L�g�\b�6i�����\u0019Ih�i~�\u0006���Bi5�)�J�����;�_|��-�rL\b]�G,��/\u0000u\u0006kg�=r��\u0005��+\u0007��A�W4\b��`��W/\u0004K�a/�\u0004P��iSd�q���31%�2T��\u0006p\u0016ᕙco0���Kr\u0002��\u001cl��=��`\u0015\u0003 ��\u0004\u001e��\u0006^���DA��\u000bm������Ot\u0001��G6�گ�\\�b�=����.>�͍<&\u0001\fo\u001d�6\flN\t���H��c�\u0001��\u00158\tHņ��pI�[)�lQ�+��3�n//.j���P3e�`\u0015�|\u0012&\u001c���5_ 8?�R��\u000fH\bZ\u0004\u0017\f\u0013�\u0016�\u001c׎\u0006�\u0011=!ё��l<\u001f#鉗��9M�~�o�F�g���\u0014���\\�j\\�#\u0013\n�\u0000�\u001d3\u0005��$�-�f����z�\u0017V\u001fU�Oy�q4��dmנ\u0018$\u007f������Vi�ځhd���u�v/�l������~dH�#\"���Z�ҙ�\f>�~\u001b�\b�.\u0013_�Yk\u0006(f\u0019�no��'�\u0000ֈ����\u0017�H�p3c�\u0018%^���)��\u0003,���\u0011;�O5��\f\u0018�\u001f�\"�bߢ�M��;> ۝\u0006�k\n}\u0016`�� ��\u001ao\n��t�ÇYN��FY��ϾQ/��o\u001f����38f��/FpI���Ũ�Q\u0007���E�_y�\u0010|�g�\"�\u0016k�\u007f��u\u0016\t�<Ռ&~o�\u0006���yMۄ��\u001f�>�އ��w\u000eo�\u0006�\u0001��AU�������D=\u0001�L�V�\u0007\u0001�Nr\u0001p�U�\u0015K�q�p!\u001d$��3�z���@m�4W傂|\u001bB��/w���8\u0012(#��,��l*\u00060�H\u001fV8Z\r8E�)���ʅH���td�X\t\fs\rIN�\u0006\u001e\"D���݅��`�*�Ӡk�n�h\u000b+,䤬Nl\u007f��j*R\u0003f����J�����F;lg���\u001f�A/�۟����7\u0019��a� ���s�Cc\u0010\t��ΰ��'jRu�\u0019*�U���\u0003\u0017;$����n\u0012\u0011$T��ϻW$t����#\u001a㙠�\u000f����w��uЏ"
+}
+{
+  "timestamp": "2021-04-17T08:11:39.404051-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "20:c0:47:c9:6f:a3",
+    "to": "68:1c:a2:13:12:db",
+    "payloadSize": 79
+  },
+  "tcp": {
+    "fromPort": 443,
+    "toPort": 11858,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "true",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "52.96.183.34",
+    "toIP": "192.168.1.82",
+    "id": 3572,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 242
+  },
+  "payload": "\u0017\u0003\u0003\u0000\u001e\u0000\u0000\u0000\u0000\u0000\u0000\u0000Ԩ��=��j��\u0015|�����\u0007|\u001f�l$"
+}
+{
+  "timestamp": "2021-04-17T08:11:39.404098-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp"
+  ],
+  "ethernet": {
+    "from": "68:1c:a2:13:12:db",
+    "to": "20:c0:47:c9:6f:a3",
+    "payloadSize": 40
+  },
+  "tcp": {
+    "fromPort": 11858,
+    "toPort": 443,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "false",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.82",
+    "toIP": "52.96.183.34",
+    "id": 23549,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  }
+}
+{
+  "timestamp": "2021-04-17T08:11:39.46152-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "bc:5f:f4:df:05:d7",
+    "to": "68:1c:a2:13:12:db",
+    "payloadSize": 81
+  },
+  "tcp": {
+    "fromPort": 56440,
+    "toPort": 7070,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "true",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.64",
+    "toIP": "192.168.1.82",
+    "id": 27806,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  },
+  "payload": "\u0017\u0003\u0003\u0000$ʢQI�i6H�4�\u0002\u0011+��aE�z\"\u0004}8��!`�\u000f�\u000f�j!C"
+}
+{
+  "timestamp": "2021-04-17T08:11:39.504544-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "bc:5f:f4:df:05:d7",
+    "to": "68:1c:a2:13:12:db",
+    "payloadSize": 81
+  },
+  "tcp": {
+    "fromPort": 56440,
+    "toPort": 7070,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "true",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.64",
+    "toIP": "192.168.1.82",
+    "id": 27807,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  },
+  "payload": "\u0017\u0003\u0003\u0000$ʢQI�i6I\u0000��V6�\f\u0007�ҸQ47�\u0003\u001dMjÆn�XB4"
+}
+{
+  "timestamp": "2021-04-17T08:11:39.504609-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp"
+  ],
+  "ethernet": {
+    "from": "68:1c:a2:13:12:db",
+    "to": "bc:5f:f4:df:05:d7",
+    "payloadSize": 40
+  },
+  "tcp": {
+    "fromPort": 7070,
+    "toPort": 56440,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "false",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.82",
+    "toIP": "192.168.1.64",
+    "id": 56056,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  }
+}
+{
+  "timestamp": "2021-04-17T08:11:39.540567-04:00",
+  "layers": [
+    "ethernet",
+    "ipv6",
+    "udp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "80:2a:a8:02:c9:e4",
+    "to": "33:33:00:00:77:77",
+    "payloadSize": 90
+  },
+  "udp": {
+    "srcPort": 18181,
+    "dstPort": 18181
+  },
+  "payload": "\u0001�\u007fVq\u001e<\u000b��*�\u0003���u��O\u0001^Y\u0012�*�\u0003���\t\u0000\u0000Q\u0006\u0007\u0006\u0003\u0000\u0006\u0000"
+}
+{
+  "timestamp": "2021-04-17T08:11:39.869561-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "68:1c:a2:13:12:db",
+    "to": "20:c0:47:c9:6f:a3",
+    "payloadSize": 41
+  },
+  "tcp": {
+    "fromPort": 1217,
+    "toPort": 80,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "false",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.82",
+    "toIP": "64.31.23.26",
+    "id": 56529,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  },
+  "payload": "\u0000"
+}
+{
+  "timestamp": "2021-04-17T08:11:39.877925-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp"
+  ],
+  "ethernet": {
+    "from": "20:c0:47:c9:6f:a3",
+    "to": "68:1c:a2:13:12:db",
+    "payloadSize": 78
+  },
+  "tcp": {
+    "fromPort": 80,
+    "toPort": 1217,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "false",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "64.31.23.26",
+    "toIP": "192.168.1.82",
+    "id": 48002,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 53
+  }
+}
+{
+  "timestamp": "2021-04-17T08:11:39.980551-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "20:c0:47:c9:6f:a3",
+    "to": "68:1c:a2:13:12:db",
+    "payloadSize": 79
+  },
+  "tcp": {
+    "fromPort": 443,
+    "toPort": 12291,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "true",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "54.87.197.95",
+    "toIP": "192.168.1.82",
+    "id": 45898,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 48
+  },
+  "payload": "\u0017\u0003\u0003\u0000\";]�v-1Nv��\u0012�\u0005�q���]c\u0012\u0016jo���3��y6\u001e|"
+}
+{
+  "timestamp": "2021-04-17T08:11:39.980735-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp"
+  ],
+  "ethernet": {
+    "from": "68:1c:a2:13:12:db",
+    "to": "20:c0:47:c9:6f:a3",
+    "payloadSize": 40
+  },
+  "tcp": {
+    "fromPort": 12291,
+    "toPort": 443,
+    "flags": {
+      "ack": "true",
+      "fin": "true",
+      "urg": "false",
+      "psh": "false",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.82",
+    "toIP": "54.87.197.95",
+    "id": 18337,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  }
+}
+{
+  "timestamp": "2021-04-17T08:11:39.980808-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp"
+  ],
+  "ethernet": {
+    "from": "20:c0:47:c9:6f:a3",
+    "to": "68:1c:a2:13:12:db",
+    "payloadSize": 46
+  },
+  "tcp": {
+    "fromPort": 443,
+    "toPort": 12291,
+    "flags": {
+      "ack": "true",
+      "fin": "true",
+      "urg": "false",
+      "psh": "false",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "54.87.197.95",
+    "toIP": "192.168.1.82",
+    "id": 45899,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 48
+  }
+}
+{
+  "timestamp": "2021-04-17T08:11:39.980835-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp"
+  ],
+  "ethernet": {
+    "from": "68:1c:a2:13:12:db",
+    "to": "20:c0:47:c9:6f:a3",
+    "payloadSize": 40
+  },
+  "tcp": {
+    "fromPort": 12291,
+    "toPort": 443,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "false",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.82",
+    "toIP": "54.87.197.95",
+    "id": 18338,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  }
+}
+{
+  "timestamp": "2021-04-17T08:11:39.985965-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp"
+  ],
+  "ethernet": {
+    "from": "20:c0:47:c9:6f:a3",
+    "to": "68:1c:a2:13:12:db",
+    "payloadSize": 46
+  },
+  "tcp": {
+    "fromPort": 443,
+    "toPort": 12291,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "false",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "54.87.197.95",
+    "toIP": "192.168.1.82",
+    "id": 45900,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 48
+  }
+}
+{
+  "timestamp": "2021-04-17T08:11:40.147337-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "udp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "18:c0:4d:38:a3:5a",
+    "to": "01:00:5e:7f:ff:fa",
+    "payloadSize": 202
+  },
+  "udp": {
+    "srcPort": 60115,
+    "dstPort": 1900
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.93",
+    "toIP": "239.255.255.250",
+    "id": 49452,
+    "protocol": "UDP",
+    "ttl": 1
+  },
+  "payload": "M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: \"ssdp:discover\"\r\nMX: 1\r\nST: urn:dial-multiscreen-org:service:dial:1\r\nUSER-AGENT: Google Chrome/89.0.4389.128 Windows\r\n\r\n"
+}
+{
+  "timestamp": "2021-04-17T08:11:40.157428-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "udp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "d0:03:df:5c:c8:55",
+    "to": "ff:ff:ff:ff:ff:ff",
+    "payloadSize": 63
+  },
+  "udp": {
+    "srcPort": 34651,
+    "dstPort": 15600
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.191",
+    "toIP": "192.168.1.255",
+    "id": 56917,
+    "protocol": "UDP",
+    "flags": "DF",
+    "ttl": 64
+  },
+  "payload": "SEARCH BSDP/0.1\nDEVICE=5\nSERVICE=1\n"
+}
+{
+  "timestamp": "2021-04-17T08:11:40.345443-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "68:1c:a2:13:12:db",
+    "to": "20:c0:47:c9:6f:a3",
+    "payloadSize": 94
+  },
+  "tcp": {
+    "fromPort": 9981,
+    "toPort": 443,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "true",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.82",
+    "toIP": "3.225.226.119",
+    "id": 15314,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  },
+  "payload": "\u0017\u0003\u0003\u00001�sٰ��d\u0017���\u0006_�M���o��H݀\u0006M��r��+ɐ%6�ӈY\u0013u�o<N��\u001a"
+}
+{
+  "timestamp": "2021-04-17T08:11:40.350587-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp"
+  ],
+  "ethernet": {
+    "from": "20:c0:47:c9:6f:a3",
+    "to": "68:1c:a2:13:12:db",
+    "payloadSize": 78
+  },
+  "tcp": {
+    "fromPort": 443,
+    "toPort": 9981,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "false",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "3.225.226.119",
+    "toIP": "192.168.1.82",
+    "id": 56791,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 50
+  }
+}
+{
+  "timestamp": "2021-04-17T08:11:40.350929-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "20:c0:47:c9:6f:a3",
+    "to": "68:1c:a2:13:12:db",
+    "payloadSize": 96
+  },
+  "tcp": {
+    "fromPort": 443,
+    "toPort": 9981,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "true",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "3.225.226.119",
+    "toIP": "192.168.1.82",
+    "id": 56792,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 50
+  },
+  "payload": "\u0017\u0003\u0003\u00003ϣ�&\f<ǲ�\u0004d\u001d\\\u000bBۚT���:I��\u0000�S���1�����=�H��!���<-w��"
+}
+{
+  "timestamp": "2021-04-17T08:11:40.35148-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "68:1c:a2:13:12:db",
+    "to": "20:c0:47:c9:6f:a3",
+    "payloadSize": 94
+  },
+  "tcp": {
+    "fromPort": 9879,
+    "toPort": 443,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "true",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.82",
+    "toIP": "54.164.13.198",
+    "id": 25031,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  },
+  "payload": "\u0017\u0003\u0003\u00001�\u0011�'\u00146\u001b\u0018�w��J �Ƅgک}�Ą3ø�2�a�̞:\u0003\u0013�O\u001d\u001fն�|u:��"
+}
+{
+  "timestamp": "2021-04-17T08:11:40.355561-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp"
+  ],
+  "ethernet": {
+    "from": "20:c0:47:c9:6f:a3",
+    "to": "68:1c:a2:13:12:db",
+    "payloadSize": 78
+  },
+  "tcp": {
+    "fromPort": 443,
+    "toPort": 9879,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "false",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "54.164.13.198",
+    "toIP": "192.168.1.82",
+    "id": 43328,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 49
+  }
+}
+{
+  "timestamp": "2021-04-17T08:11:40.356598-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "20:c0:47:c9:6f:a3",
+    "to": "68:1c:a2:13:12:db",
+    "payloadSize": 96
+  },
+  "tcp": {
+    "fromPort": 443,
+    "toPort": 9879,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "true",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "54.164.13.198",
+    "toIP": "192.168.1.82",
+    "id": 43329,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 49
+  },
+  "payload": "\u0017\u0003\u0003\u00003u��X�*o�\u000f\u00044m$ �\f�{�{�$�>FH�[�\u0011��~N�c\u001ce�nyX2\u0006�9R���R"
+}
+{
+  "timestamp": "2021-04-17T08:11:40.356973-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "68:1c:a2:13:12:db",
+    "to": "20:c0:47:c9:6f:a3",
+    "payloadSize": 94
+  },
+  "tcp": {
+    "fromPort": 9925,
+    "toPort": 443,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "true",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.82",
+    "toIP": "54.166.98.47",
+    "id": 2275,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  },
+  "payload": "\u0017\u0003\u0003\u00001\u0015�T\f\b~\u0019SM$#�푗������eg^���mQ�\u0013x\t�o��I�j�\u0007\u001f��o$��"
+}
+{
+  "timestamp": "2021-04-17T08:11:40.36214-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp"
+  ],
+  "ethernet": {
+    "from": "20:c0:47:c9:6f:a3",
+    "to": "68:1c:a2:13:12:db",
+    "payloadSize": 78
+  },
+  "tcp": {
+    "fromPort": 443,
+    "toPort": 9925,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "false",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "54.166.98.47",
+    "toIP": "192.168.1.82",
+    "id": 60856,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 48
+  }
+}
+{
+  "timestamp": "2021-04-17T08:11:40.362358-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "20:c0:47:c9:6f:a3",
+    "to": "68:1c:a2:13:12:db",
+    "payloadSize": 96
+  },
+  "tcp": {
+    "fromPort": 443,
+    "toPort": 9925,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "true",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "54.166.98.47",
+    "toIP": "192.168.1.82",
+    "id": 60857,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 48
+  },
+  "payload": "\u0017\u0003\u0003\u00003�4}&\u001a��\u0019\u001cǰ\bT`f,b�B�\u001d�0ᚍmGM��Ct���^�̇�e��O�vj\u001cml"
+}
+{
+  "timestamp": "2021-04-17T08:11:40.391656-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp"
+  ],
+  "ethernet": {
+    "from": "68:1c:a2:13:12:db",
+    "to": "20:c0:47:c9:6f:a3",
+    "payloadSize": 40
+  },
+  "tcp": {
+    "fromPort": 9981,
+    "toPort": 443,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "false",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.82",
+    "toIP": "3.225.226.119",
+    "id": 15315,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  }
+}
+{
+  "timestamp": "2021-04-17T08:11:40.407628-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp"
+  ],
+  "ethernet": {
+    "from": "68:1c:a2:13:12:db",
+    "to": "20:c0:47:c9:6f:a3",
+    "payloadSize": 40
+  },
+  "tcp": {
+    "fromPort": 9879,
+    "toPort": 443,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "false",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.82",
+    "toIP": "54.164.13.198",
+    "id": 25032,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  }
+}
+{
+  "timestamp": "2021-04-17T08:11:40.407628-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp"
+  ],
+  "ethernet": {
+    "from": "68:1c:a2:13:12:db",
+    "to": "20:c0:47:c9:6f:a3",
+    "payloadSize": 40
+  },
+  "tcp": {
+    "fromPort": 9925,
+    "toPort": 443,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "false",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.82",
+    "toIP": "54.166.98.47",
+    "id": 2276,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  }
+}
+{
+  "timestamp": "2021-04-17T08:11:40.489523-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "bc:5f:f4:df:05:d7",
+    "to": "68:1c:a2:13:12:db",
+    "payloadSize": 81
+  },
+  "tcp": {
+    "fromPort": 56440,
+    "toPort": 7070,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "true",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.64",
+    "toIP": "192.168.1.82",
+    "id": 27808,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  },
+  "payload": "\u0017\u0003\u0003\u0000$ʢQI�i6J�\tT\u0015K\b��P�����o\\]��$�u\"�{���"
+}
+{
+  "timestamp": "2021-04-17T08:11:40.518026-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp"
+  ],
+  "ethernet": {
+    "from": "68:1c:a2:13:12:db",
+    "to": "18:c0:4d:38:a3:5a",
+    "payloadSize": 52
+  },
+  "tcp": {
+    "fromPort": 12298,
+    "toPort": 7680,
+    "flags": {
+      "ack": "false",
+      "fin": "false",
+      "urg": "false",
+      "psh": "false",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.82",
+    "toIP": "192.168.1.93",
+    "id": 2732,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  }
+}
+{
+  "timestamp": "2021-04-17T08:11:40.518574-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp"
+  ],
+  "ethernet": {
+    "from": "18:c0:4d:38:a3:5a",
+    "to": "68:1c:a2:13:12:db",
+    "payloadSize": 52
+  },
+  "tcp": {
+    "fromPort": 7680,
+    "toPort": 12298,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "false",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.93",
+    "toIP": "192.168.1.82",
+    "id": 51282,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  }
+}
+{
+  "timestamp": "2021-04-17T08:11:40.518632-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp"
+  ],
+  "ethernet": {
+    "from": "68:1c:a2:13:12:db",
+    "to": "18:c0:4d:38:a3:5a",
+    "payloadSize": 40
+  },
+  "tcp": {
+    "fromPort": 12298,
+    "toPort": 7680,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "false",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.82",
+    "toIP": "192.168.1.93",
+    "id": 2733,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  }
+}
+{
+  "timestamp": "2021-04-17T08:11:40.518686-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "68:1c:a2:13:12:db",
+    "to": "18:c0:4d:38:a3:5a",
+    "payloadSize": 115
+  },
+  "tcp": {
+    "fromPort": 12298,
+    "toPort": 7680,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "true",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.82",
+    "toIP": "192.168.1.93",
+    "id": 2734,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  },
+  "payload": "\u000eSwarm protocol\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000��p^�\u0018�\u0013c�HQ���\u0018�\u0016��n�?_�g�\u0007w��\u001c��F�J`�K��_�ŧ�?\u0000\u0000\u0000\u0000"
+}
+{
+  "timestamp": "2021-04-17T08:11:40.519592-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp"
+  ],
+  "ethernet": {
+    "from": "18:c0:4d:38:a3:5a",
+    "to": "68:1c:a2:13:12:db",
+    "payloadSize": 46
+  },
+  "tcp": {
+    "fromPort": 7680,
+    "toPort": 12298,
+    "flags": {
+      "ack": "true",
+      "fin": "true",
+      "urg": "false",
+      "psh": "false",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.93",
+    "toIP": "192.168.1.82",
+    "id": 51283,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  }
+}
+{
+  "timestamp": "2021-04-17T08:11:40.519624-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp"
+  ],
+  "ethernet": {
+    "from": "68:1c:a2:13:12:db",
+    "to": "18:c0:4d:38:a3:5a",
+    "payloadSize": 40
+  },
+  "tcp": {
+    "fromPort": 12298,
+    "toPort": 7680,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "false",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.82",
+    "toIP": "192.168.1.93",
+    "id": 2735,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  }
+}
+{
+  "timestamp": "2021-04-17T08:11:40.519665-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp"
+  ],
+  "ethernet": {
+    "from": "68:1c:a2:13:12:db",
+    "to": "18:c0:4d:38:a3:5a",
+    "payloadSize": 40
+  },
+  "tcp": {
+    "fromPort": 12298,
+    "toPort": 7680,
+    "flags": {
+      "ack": "true",
+      "fin": "true",
+      "urg": "false",
+      "psh": "false",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.82",
+    "toIP": "192.168.1.93",
+    "id": 2736,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  }
+}
+{
+  "timestamp": "2021-04-17T08:11:40.520009-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp"
+  ],
+  "ethernet": {
+    "from": "18:c0:4d:38:a3:5a",
+    "to": "68:1c:a2:13:12:db",
+    "payloadSize": 46
+  },
+  "tcp": {
+    "fromPort": 7680,
+    "toPort": 12298,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "false",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.93",
+    "toIP": "192.168.1.82",
+    "id": 51284,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  }
+}
+{
+  "timestamp": "2021-04-17T08:11:40.520226-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "udp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "2c:58:4f:ab:8d:f9",
+    "to": "01:00:5e:7f:ff:fa",
+    "payloadSize": 165
+  },
+  "udp": {
+    "srcPort": 40150,
+    "dstPort": 1900
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.105",
+    "toIP": "239.255.255.250",
+    "protocol": "UDP",
+    "flags": "DF",
+    "ttl": 1
+  },
+  "payload": "M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: \"ssdp:discover\"\r\nMX: 1\r\nST: urn:schemas-upnp-org:device:InternetGatewayDevice:1\r\n\r\n"
+}
+{
+  "timestamp": "2021-04-17T08:11:40.521689-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "udp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "3c:df:a9:61:44:2e",
+    "to": "01:00:5e:7f:ff:fa",
+    "payloadSize": 165
+  },
+  "udp": {
+    "srcPort": 43510,
+    "dstPort": 1900
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.102",
+    "toIP": "239.255.255.250",
+    "protocol": "UDP",
+    "flags": "DF",
+    "ttl": 1
+  },
+  "payload": "M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: \"ssdp:discover\"\r\nMX: 1\r\nST: urn:schemas-upnp-org:device:InternetGatewayDevice:1\r\n\r\n"
+}
+{
+  "timestamp": "2021-04-17T08:11:40.533224-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp"
+  ],
+  "ethernet": {
+    "from": "68:1c:a2:13:12:db",
+    "to": "bc:5f:f4:df:05:d7",
+    "payloadSize": 40
+  },
+  "tcp": {
+    "fromPort": 7070,
+    "toPort": 56440,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "false",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.82",
+    "toIP": "192.168.1.64",
+    "id": 56057,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  }
+}
+{
+  "timestamp": "2021-04-17T08:11:40.533963-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "bc:5f:f4:df:05:d7",
+    "to": "68:1c:a2:13:12:db",
+    "payloadSize": 81
+  },
+  "tcp": {
+    "fromPort": 56440,
+    "toPort": 7070,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "true",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.64",
+    "toIP": "192.168.1.82",
+    "id": 27809,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  },
+  "payload": "\u0017\u0003\u0003\u0000$ʢQI�i6KHW\u001bU��!�C9�\u0014��KC..�9��P83���"
+}
+{
+  "timestamp": "2021-04-17T08:11:40.580811-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp"
+  ],
+  "ethernet": {
+    "from": "68:1c:a2:13:12:db",
+    "to": "bc:5f:f4:df:05:d7",
+    "payloadSize": 40
+  },
+  "tcp": {
+    "fromPort": 7070,
+    "toPort": 56440,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "false",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.82",
+    "toIP": "192.168.1.64",
+    "id": 56058,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  }
+}
+{
+  "timestamp": "2021-04-17T08:11:40.604225-04:00",
+  "layers": [
+    "ethernet",
+    "arp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "d0:03:df:5c:c8:55",
+    "to": "ff:ff:ff:ff:ff:ff",
+    "payloadSize": 46
+  },
+  "arp": {
+    "operation": "ArpRequest",
+    "sender": {
+      "mac": "d0:03:df:5c:c8:55",
+      "ip": "192.168.1.191"
+    },
+    "target": {
+      "mac": "00:00:00:00:00:00",
+      "ip": "192.168.1.1"
+    }
+  },
+  "payload": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+}
+{
+  "timestamp": "2021-04-17T08:11:40.835135-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "bc:5f:f4:df:05:d7",
+    "to": "68:1c:a2:13:12:db",
+    "payloadSize": 81
+  },
+  "tcp": {
+    "fromPort": 56440,
+    "toPort": 7070,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "true",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.64",
+    "toIP": "192.168.1.82",
+    "id": 27810,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  },
+  "payload": "\u0017\u0003\u0003\u0000$ʢQI�i6L���G�?�*�:B���\u0017��S��<\u0002\u001c�iS��"
+}
+{
+  "timestamp": "2021-04-17T08:11:40.879346-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "bc:5f:f4:df:05:d7",
+    "to": "68:1c:a2:13:12:db",
+    "payloadSize": 81
+  },
+  "tcp": {
+    "fromPort": 56440,
+    "toPort": 7070,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "true",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.64",
+    "toIP": "192.168.1.82",
+    "id": 27811,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  },
+  "payload": "\u0017\u0003\u0003\u0000$ʢQI�i6M\u0005�N�=tч�b��$\u001aH�˨r�A+3��)�\""
+}
+{
+  "timestamp": "2021-04-17T08:11:40.879396-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp"
+  ],
+  "ethernet": {
+    "from": "68:1c:a2:13:12:db",
+    "to": "bc:5f:f4:df:05:d7",
+    "payloadSize": 40
+  },
+  "tcp": {
+    "fromPort": 7070,
+    "toPort": 56440,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "false",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.82",
+    "toIP": "192.168.1.64",
+    "id": 56059,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  }
+}
+{
+  "timestamp": "2021-04-17T08:11:41.266266-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "bc:5f:f4:df:05:d7",
+    "to": "68:1c:a2:13:12:db",
+    "payloadSize": 81
+  },
+  "tcp": {
+    "fromPort": 56440,
+    "toPort": 7070,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "true",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.64",
+    "toIP": "192.168.1.82",
+    "id": 27812,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  },
+  "payload": "\u0017\u0003\u0003\u0000$ʢQI�i6N\u0007�׉~8\u0019Co�\u0004w>�\u000f�\u001d�\u001c�\\�\f|�؊\u001c"
+}
+{
+  "timestamp": "2021-04-17T08:11:41.306259-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp"
+  ],
+  "ethernet": {
+    "from": "68:1c:a2:13:12:db",
+    "to": "bc:5f:f4:df:05:d7",
+    "payloadSize": 40
+  },
+  "tcp": {
+    "fromPort": 7070,
+    "toPort": 56440,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "false",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.82",
+    "toIP": "192.168.1.64",
+    "id": 56060,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 128
+  }
+}
+{
+  "timestamp": "2021-04-17T08:11:41.309287-04:00",
+  "layers": [
+    "ethernet",
+    "ipv4",
+    "tcp",
+    "payload"
+  ],
+  "ethernet": {
+    "from": "bc:5f:f4:df:05:d7",
+    "to": "68:1c:a2:13:12:db",
+    "payloadSize": 81
+  },
+  "tcp": {
+    "fromPort": 56440,
+    "toPort": 7070,
+    "flags": {
+      "ack": "true",
+      "fin": "false",
+      "urg": "false",
+      "psh": "true",
+      "rst": "false",
+      "ece": "false",
+      "cwr": "false",
+      "ns": "false"
+    }
+  },
+  "ipv4": {
+    "fromIP": "192.168.1.64",
+    "toIP": "192.168.1.82",
+    "id": 27813,
+    "protocol": "TCP",
+    "flags": "DF",
+    "ttl": 
