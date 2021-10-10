@@ -3,6 +3,8 @@ package main
 import (
 	"flag"
 	"fmt"
+	interactive2 "github.com/logycon/net/netmon/interactive"
+	"github.com/logycon/net/netmon/server"
 	"os"
 )
 
@@ -36,7 +38,7 @@ func main() {
 	flag.BoolVar(&testPrintPackets, "tpp", false, "Test Mode: Also print gopacket, e.g. -tpp")
 	flag.BoolVar(&testPrintPayload, "tp", true, "Test Mode: Print payload, e.g. -tp=false")
 	flag.StringVar(&testFilter, "tf", "", "Test Mode: BPF, e.g. -tf=\"host 192.168.1.1\"")
-	flag.StringVar(&outputFile, "of", "", "Output pcap file name, test mode only, e.g. -t -o=out.pcap")
+	flag.StringVar(&outputFile, "of", "", "Output pcap file name, dirtest mode only, e.g. -t -o=out.pcap")
 	flag.StringVar(&inputFile, "if", "", "Input pcap file to play, e.g. -t -i=in.pcap")
 
 	flag.Parse()
@@ -50,19 +52,19 @@ func main() {
 	if interactive {
 		switch {
 		case listDevices:
-			ListDevices()
+			interactive2.ListDevices()
 		case captureDevice > 0:
-			CaptureDeviceByIndex(captureDevice)
+			interactive2.CaptureDeviceByIndex(captureDevice)
 		case captureHttp > 0:
-			CaptureHttpByIndex(captureHttp)
+			interactive2.CaptureHttpByIndex(captureHttp)
 		}
 
-		// test()
+		// dirtest()
 
 	}
 
 	if serve {
-		Serve()
+		server.Serve(portNumber)
 	}
 }
 
